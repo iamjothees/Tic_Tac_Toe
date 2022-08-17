@@ -1,0 +1,80 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/****************************************************************************************************/
+/* User Detail Dialog Box*/
+
+#playerNameCollector .bg{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 50%;
+    z-index: 1;
+}
+
+.playerNameCollectorContainer{
+    position: absolute;
+    z-index: 2;
+    margin: 3em 0;
+    padding: 2em .5rem;  
+    border-radius: 1.6em;
+    border-style: solid;
+    background-color: beige;
+    font-size: 1.5em;
+}
+
+
+#sendButton{
+    font-size: 23px;
+    font-weight:bolder;
+    border-radius: .8em;
+    padding: .4em 3em;
+    color: antiquewhite;
+    background-color: goldenrod;
+}
+
+#skip{
+    position: absolute;
+    right: 20px;
+    top:10px
+}
+/**************************************************************************************/
+/* MobileNumber Collector */
+
+.playerNameCollectorContainer{
+    text-align: center;
+}
+
+#nameTextBox{
+    margin: 1em 0;
+    font-size: .7em;
+    text-align: center;
+    padding: .7em 2.5em;
+    border-radius: 1em;
+}
+
+/*************************************************************************************/
+/* Address Collector */
+
+.addressCollectorContainer #form{
+    padding: 0 10px;
+}
+
+.addressCollectorContainer input{
+    margin: .5em 0;
+    font-size: .7em;
+    padding: .7em 1em;
+    border-radius: 1em;
+}
+
+.addressCollectorContainer button{
+    margin-top: .5em;
+}
+
+/*************************************************************************************/
+

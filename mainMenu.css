@@ -1,0 +1,28 @@
+main.mainMenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vmin;
+}
+
+.menuOption{
+    display: inline-block;
+    height: 8vmin;
+    width: 40vmin;
+    margin: 5vmin;
+    color: rgb(250, 252, 125);
+    font: bolder 3.5vmin Arial;
+    text-align: center;
+    line-height: 8vmin;
+    background-image: linear-gradient(to bottom right, rgb(204, 185, 17), rgb(39, 37, 37));
+    background-image: linear-gradient(to right, rgba(252, 11, 123, 0.925), rgba(3, 140, 252, 0.973));
+    border: inset black;
+    box-shadow: 0px 0px 8vw .5vw rgb(235, 232, 225);
+}
+
+.menuOption:hover{
+    /* height: 10vmin;
+    width: 45vmin; */
+    padding: 1vmin 2vmin;
+    line-height: 8.5vmin;
+    box-shadow: 0px 0px 8vw 2vw rgb(248, 248, 246);
+}

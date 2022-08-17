@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="settings.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.js"></script>
+</head>
+
+<main class="settings">
+    <div class="Container">
+        <label>Player Name:</label><br>
+            <input type="text" class="inputs" id="userName"><br>
+        <label>Tile Design:</label><br>
+            <input type="radio" class="inputs" name="tileDesign" value="XO" checked="checked">
+                <table class="tileContainer">
+                    <td><button class="tile" style="font-weight:bolder ;">X</button></td>
+                    <td><button class="tile">O</button></td>
+                </table><br>
+            <input type="radio" class="inputs" name="tileDesign" value="B/W_smiley">
+                <table class="tileContainer">
+                    <td><button class="tile"><img src="icons/smileBlack.png" height="35"></button></td>
+                    <td><button class="tile"><img src="icons/smileWhite.png" height="35"></button></td>
+                </table><br>
+            <input type="radio" class="inputs" name="tileDesign" value="colors">
+                <input type="color" class="inputs1" id="clrPkrTrueTile" value="#f31212">
+                <input type="color" class="inputs1" id="clrPkrFalseTile" value="#050505"><br>
+        <button id="save" onclick="save()">Save</button>
+        <button id="cancel" onclick="cancel()">Cancel</button>
+    </div>
+</main>

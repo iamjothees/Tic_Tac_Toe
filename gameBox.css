@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.isMyTurn{
+    background-color: rgb(90, 85, 85);
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+.timerContainer{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+td>.tiles, td>#myTileValue{
+    border-radius: .15em;
+    border-style: solid;
+    border-color: black;
+    font-size: 6em;
+}
+
+.tiles:hover, .tiles:focus{
+    background-color: grey;
+}
+.tiles, #myTileValue{
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 1em;
+    margin: 0.02em;
+}
+
+#reset, #exit{
+    margin-top: 2em;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 45px;
+}
+
+#exit{
+    position: static;
+    right: 30px;
+}
+
+#tileDesign{
+    height: 1em;
+    width: 1em;
+    background-color: blueviolet;
+}
+
+.trueTile, .falseTile{
+    display: none;
+}

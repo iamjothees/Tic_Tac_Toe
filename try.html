@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.js"></script>
+    <title>Document</title>
+    <style>
+        .cls1{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="new"></div>
+
+    <button onclick="func()">remove</button>
+
+    <!-- <script>
+        console.log("value " + $(".class1").eq(0).val());
+        let x = 0;
+        break1: if(true){
+            if ( x=== 0){
+                console.log("hi one");
+                break break1;
+                console.log("hi");
+            }
+        }
+    </script> -->
+    <script>
+        function func(){
+            $("#new").html("<div class='cls1'>HEllo</div>");
+        }
+    </script>
+</body>
+</html>

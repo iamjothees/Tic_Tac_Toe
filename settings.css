@@ -1,0 +1,61 @@
+main.settings{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vmin;
+}
+.Container *{
+    display: inline-block;
+    font-weight: bolder;
+    
+}
+
+label{
+    color: aliceblue;
+    font-size: larger;
+    text-shadow: 0px 2px rgb(17, 17, 16);
+}
+
+
+.Container .inputs{
+    position: relative;
+    left: 2em;
+    margin: 1.5em;
+}
+
+#userName{
+    height: 3em;
+    width: 18em;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+.inputs1{
+    position: relative;
+    left: 2.5em;
+    height: 5em;
+    width: 5em;
+    margin: .2em;
+}
+
+td>.tile{
+    border-radius: .15em;
+    border-style: solid;
+    border-color: rgb(244, 248, 6);
+    font-size: 1em;
+    width: 4em;
+    height: 4em;
+    line-height: 5em;
+    text-align: center;
+    margin: 0.2em;
+}
+.tileContainer{
+    position: relative;
+    left: 2em;
+}
+
+#save, #cancel{
+    font-size: large;
+    height: 2.5em;
+    width: 7em;
+    margin: 1em;
+}

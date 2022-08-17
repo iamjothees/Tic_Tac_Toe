@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+}
+main.rooms{
+    display: flex;
+    justify-content: center;
+}
+
+.roomSlctrContainer{
+    position: relative;
+    height: 80vmin;
+    width: 80vw;
+}
+
+
+.roomNameSlctr{
+    position: absolute;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 5vmin;
+    font-weight: bolder;
+    color: floralwhite;
+    color: black;
+    background-color: purple;
+    box-shadow: 0px 0px 3vw 1vw rgb(15, 13, 15);
+    /*box-shadow: 0px 0px 5vw 1vw rgb(252, 3, 127);*/
+    /* box-shadow: 0 0 0 0px purple; */
+}
+
+.rm1{
+    --height: 15vmin;
+    /* background-image: radial-gradient(red); */
+    background-color: rgba(88, 255, 11);
+    font-size: 3vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: -10%;
+    top: 15%;
+}
+.rm1:hover{
+    box-shadow: 0px 0px 1vw 1vw rgba(88, 255, 11, 0.959);
+}
+
+.rm2{
+    --height: 30vmin;
+    background-color: rgb(15, 158, 194);
+    font-size: 5vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 31%;
+    top: -7%;
+}
+.rm2:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(15, 158, 194);
+}
+
+.rm3{
+    --height: 22vmin;
+    background-color: rgb(230, 39, 5);
+    font-size: 4.5vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 83%;
+    top: 22%;
+}
+.rm3:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(230, 39, 5);
+}
+
+.rm4{
+    --height: 12vmin;
+    background-color: rgb(250, 214, 13);
+    font-size: 2.5vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 10%;
+    top: 50%;
+}
+.rm4:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(250, 214, 13);
+}
+
+.rm5{
+    --height: 41vmin;
+    background-color: rgb(231, 110, 191);
+    font-size: 7vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 36%;
+    top: 38%;
+}
+.rm5:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(231, 110, 191);
+}
+
+.rm6{
+    --height: 23vmin;
+    background-color: rgb(252, 11, 3);
+    font-size: 5vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: -7%;
+    top: 96%;
+}
+.rm6:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(252, 11, 3);
+}
+
+.rm7{
+    --height: 32vmin;
+    background-color: rgb(159, 36, 230);
+    font-size: 6vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 68%;
+    top: 88%;
+}
+.rm7:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(159, 36, 230);
+}
+
+.rm8{
+    --height: 17vmin;
+    background-color: rgb(252, 3, 177);
+    font-size: 4vmin;
+    height: var(--height);
+    width: var(--height);
+    line-height: var(--height);
+    left: 26%;
+    top: 85%;
+}
+.rm8:hover{
+    box-shadow: 0px 0px 1vw 1vw rgb(252, 3, 177);
+}
